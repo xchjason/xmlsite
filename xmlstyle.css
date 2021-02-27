@@ -1,0 +1,45 @@
+songs {
+     color: #000000;
+     background-color : #FFE4C4;
+     width: 100%;
+}
+
+heading {
+     color: #000000;
+     font-size : 40px;
+     font-weight: bold;
+     background-color : #FFE4C4;
+     padding: 8px 30px;
+}
+
+heading, title, artist, genre, year {
+     display : block;
+}
+
+song {
+     display: block;
+     border-bottom: 1px solid #1E3FD1;
+     padding: 8px 30px;
+}
+
+
+song title{
+	font-size : 20px;
+	font-weight : bold;
+}
+
+song title:before {
+	content: "Title: ";
+}
+
+song artist:before {
+	content: "Artist: ";
+}
+
+song genre:before {
+	content: "Genre: ";
+}
+
+song year:before {
+	content: "Year of Release: ";
+}
